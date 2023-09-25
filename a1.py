@@ -26,7 +26,7 @@ if "visibility" not in st.session_state:
     st.session_state.disabled = False
 
 selected_movie_name = st.selectbox(
-        "How would you like to be contacted?",
+        "Please, select the movie name: ",
         movies['title'].values,
         label_visibility=st.session_state.visibility,
         disabled=st.session_state.disabled,
